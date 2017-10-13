@@ -1,0 +1,78 @@
+html, body, .capa {
+	height: 100%;
+
+}
+
+/*body {
+	background: url('../imagens/imagemprincipal.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: right;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	font-family: 'Open Sans', sans-serif !important;
+}*/
+
+/* -- Barra de Navegação -- */
+.img-logo {
+     margin-top: -23px;
+	height: 61px;
+	width: 180px;
+	display: block; /* span é inline e quero definir como bloco */
+	background-size: contain;
+	color: transparent; /* manter os textos pois os leitores de tela os reconhecem */
+}
+
+nav.navbar-transparente {
+	transition: 1s;
+	padding: 15px 0px;
+	background: #e8e2f0; /* definição da transparencia da barra de menus */
+	/*border: none;*/
+}
+nav.navbar-solida{
+	transition: 1s;
+	padding: 15px 0px;
+	background: #e8e2f0;
+	/*border: none;*/
+}
+
+.navbar-inverse{
+     border: none;
+}
+
+.navbar-brand {
+	padding: 5px 15px; /* sobreescrita de classe para centralizar logo */
+}
+
+#barra-navegacao a{
+	color: #662d91;
+}
+
+li{
+	font-size: 1.1vw;
+	text-decoration: none;
+}
+
+li:hover{
+	font-weight: bold;
+}
+
+li:active{
+	font-weight: ;
+}
+
+.menu-fixo{
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+
+.o-evento{
+	background: url('imagens/onda.png');
+}
+
+.palestrantes img{
+	width: 300px;
+	height: 400px;
+}
