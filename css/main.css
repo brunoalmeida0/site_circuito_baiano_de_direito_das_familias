@@ -1,6 +1,6 @@
 html, body, .capa {
 	height: 100%;
-
+	background: #e8e2f0;
 }
 
 /*body {
@@ -68,11 +68,75 @@ li:active{
 	z-index: 99;
 }
 
-.o-evento{
-	background: url('imagens/onda.png');
+#myCarousel{
+	margin-top: 81px;
+}
+
+.foto-oevento{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.o-evento img{
+	width: 300px;
 }
 
 .palestrantes img{
 	width: 300px;
 	height: 400px;
+}
+
+.palestrante1:hover{
+
+	transition: 1s;
+	width: 370px;
+	height: 470px;
+}
+
+.palestrante2:hover{
+	transition: 1s;
+	width: 370px;
+	height: 470px;
+}
+
+.palestrante3:hover{
+	transition: 1s;
+	width: 370px;
+	height: 470px;
+}
+
+.fotos-palestrantes{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.realização-organizacao img{
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.parceiros h2{
+	text-align: center;
+}
+
+.o-evento h1{
+	color: #f2592b;
+}
+
+.palestrantes h1{
+	color: #f2592b;
+}
+
+.inscricoes h1{
+	color: #f2592b;
+}
+
+.parceiros h1{
+	color: #f2592b;
+	text-align: center;
+}
+
+.contato h1{
+	color: #f2592b;
 }
