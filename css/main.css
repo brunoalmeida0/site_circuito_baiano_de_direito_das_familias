@@ -68,8 +68,12 @@ li:active{
 	z-index: 99;
 }
 
-#myCarousel{
+.home{
 	margin-top: 81px;
+}
+
+.item{
+
 }
 
 .foto-oevento{
@@ -100,61 +104,6 @@ ul#album-fotos li{
 	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
 	-webkit-transition: all 1s ease-in;
 }
-
-ul#album-fotos li:hover{
-	-webkit-transform: scale(1.1,1.1);
-}
-
-ul#album-fotos li span{
-	opacity: 0;
-	color: #fff;
-	font-size: 20px;
-	-webkit-transition: all 1s;
-}
-
-ul#album-fotos li:hover span{
-	opacity: 1;
-}
-
-ul#album-fotos li#palestrante1{
-	background: url('../imagens/roberto_figueiredo_palestrante1.jpg') no-repeat;
-	background-position: 50% 50%;
-	background-size: 300px 400px;
-	background-color: #fff;
-}
-
-ul#album-fotos li#palestrante1:hover{
-	background: url('../imagens/roberto_figueiredo_palestrante1op.jpg') no-repeat;
-	background-size: 300px 400px;
-	z-index: 100;
-}
-
-ul#album-fotos li#palestrante2{
-	background: url('../imagens/adisson_leal_palestrante1.jpg') no-repeat;
-	background-position: 50% 50%;
-	background-size: 300px 400px;
-	background-color: #fff;
-}
-
-ul#album-fotos li#palestrante2:hover{
-	background: url('../imagens/adisson_leal_palestrante1op.jpg') no-repeat;
-	background-size: 300px 400px;
-	z-index: 100;
-}
-
-ul#album-fotos li#palestrante3{
-	background: url('../imagens/pablo_stolze_palestrante1.jpg') no-repeat;
-	background-position: 50% 50%;
-	background-size: 300px 400px;
-	background-color: #fff;
-}
-
-ul#album-fotos li#palestrante3:hover{
-	background: url('../imagens/pablo_stolze_palestrante1op.jpg') no-repeat;
-	background-size: 300px 400px;
-	z-index: 100;
-}
-
 
 .realização-organizacao img{
 	width: 200px;
