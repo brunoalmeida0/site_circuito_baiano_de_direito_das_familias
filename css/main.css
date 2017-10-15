@@ -1,18 +1,6 @@
 html, body, .capa {
 	height: 100%;
-	background: #e8e2f0;
 }
-
-/*body {
-	background: url('../imagens/imagemprincipal.jpg') no-repeat;
-	background-attachment: fixed;
-	background-position: right;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-o-background-size: cover;
-	-moz-background-size: cover;
-	font-family: 'Open Sans', sans-serif !important;
-}*/
 
 /* -- Barra de Navegação -- */
 .img-logo {
@@ -28,13 +16,13 @@ nav.navbar-transparente {
 	transition: 1s;
 	padding: 15px 0px;
 	background: #e8e2f0; /* definição da transparencia da barra de menus */
-	/*border: none;*/
+	border: none;
 }
 nav.navbar-solida{
 	transition: 1s;
 	padding: 15px 0px;
 	background: #e8e2f0;
-	/*border: none;*/
+	border: none;
 }
 
 .navbar-inverse{
@@ -69,10 +57,12 @@ li:active{
 }
 
 .home{
-	margin-top: 81px;
+	margin-top: 80px;
 }
 
-.item{
+.carousel-inner img{
+	width: 100%;
+	margin: auto;
 
 }
 
@@ -81,28 +71,26 @@ li:active{
 	margin-right: auto;
 }
 
+.icones-oevento{
+	font-size: 30px;
+}
+
+.icones-oevento span{
+	margin: 30px 100px 30px 0px;
+}
+
+.icones-oevento span:hover{
+	color: #f2592b;
+}
+
 .o-evento img{
 	width: 300px;
 }
 
-ul#album-fotos{
-	margin: auto auto;
-	margin-top: 50px;
-	padding: 5px;
-	overflow: hidden;
-	list-style: none;
-}
 
-ul#album-fotos li{
-	float: left;
-	width: 300px;
-	height: 400px;
-	margin: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #fff;
-	box-shadow: 1px 1px 3px rgba(0,0,0,.2);
-	-webkit-transition: all 1s ease-in;
+
+.parceiros img{
+	margin: auto;
 }
 
 .realização-organizacao img{
@@ -111,14 +99,9 @@ ul#album-fotos li{
 	margin-top: 10px;
 }
 
-.parceiros h2{
-	text-align: center;
-}
-
 .o-evento h1{
 	color: #f2592b;
 }
-
 .palestrantes h1{
 	color: #f2592b;
 }
@@ -128,10 +111,28 @@ ul#album-fotos li{
 }
 
 .parceiros h1{
-	color: #f2592b;
+	color: #662d91;
 	text-align: center;
 }
 
 .contato h1{
+	color: #662d91;
+	text-align: center;
+}
+
+h2, *{
+	text-align: justify;
+}
+
+.textos-o-evento h2{
 	color: #f2592b;
+}
+
+.palestrantes h2{
+	text-align: center;
+	color: #662d91;
+}
+
+.parceiros h2{
+	text-align: center;
 }
