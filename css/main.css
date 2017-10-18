@@ -1,12 +1,25 @@
-html, body, .capa {
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+html, body{
 	height: 100%;
+	width: 100%;
+	/*background: url('../imagens/onda.png') no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: 100% 40%;
+	-webkit-background-size: 100% 40%;
+	-o-background-size: 100% 40%;
+	-moz-background-size: 100% 40%;*/
 }
 
 /* -- Barra de Navegação -- */
 .img-logo {
      margin-top: -23px;
-	height: 61px;
-	width: 180px;
+	/*height: 100px;*/
+	width: 150px;
 	display: block; /* span é inline e quero definir como bloco */
 	background-size: contain;
 	color: transparent; /* manter os textos pois os leitores de tela os reconhecem */
@@ -47,31 +60,42 @@ li:hover{
 }
 
 li:active{
-	font-weight: ;
+	border: none;
 }
 
 .menu-fixo{
 	position: fixed;
 	top: 0;
 	z-index: 99;
+	border: none;
 }
+/* -- Barra de Navegação -- */
 
+/*HOME*/
 .home{
 	margin-top: 80px;
+}
+
+.familia{
 }
 
 .carousel-inner img{
 	width: 100%;
 	margin: auto;
-
 }
 
+.videos{
+	margin-top: 10px;
+}
+/*HOME*/
+
+/*O EVENTO*/
 .foto-oevento{
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.icones-oevento{
+/*.icones-oevento{
 	font-size: 30px;
 }
 
@@ -81,14 +105,25 @@ li:active{
 
 .icones-oevento span:hover{
 	color: #f2592b;
-}
+}*/
 
 .o-evento img{
 	width: 300px;
 }
 
+/*O EVENTO*/
 
+/*PALESTRANTES*/
+.palestrantes a:hover{
+	text-decoration: none;
+}
 
+/*PALESTRANTES*/
+
+/*INSCRIÇÕES*/
+/*INSCRIÇÕES*/
+
+/*PARCEIROS*/
 .parceiros img{
 	margin: auto;
 }
@@ -99,25 +134,33 @@ li:active{
 	margin-top: 10px;
 }
 
+/*PARCEIROS*/
+
+/*FORMATAÇÃO*/
 .o-evento h1{
 	color: #f2592b;
+	font-size: 2.7vw;
 }
 .palestrantes h1{
 	color: #f2592b;
+	font-size: 2.7vw;
 }
 
 .inscricoes h1{
 	color: #f2592b;
+	font-size: 2.7vw;
 }
 
 .parceiros h1{
 	color: #662d91;
 	text-align: center;
+	font-size: 2.7vw;
 }
 
 .contato h1{
 	color: #662d91;
 	text-align: center;
+	font-size: 2.7vw;
 }
 
 h2, *{
@@ -127,13 +170,71 @@ h2, *{
 .textos-o-evento h2{
 	color: #f2592b;
 	text-align: center;
+	font-size: 2.3vw;
 }
 
 .palestrantes h2{
 	text-align: center;
+	font-size: 1.5vw;
 	color: #662d91;
 }
 
 .parceiros h2{
 	text-align: center;
 }
+ p{
+	font-size: 1.2vw;
+ }
+/*FORMATAÇÃO*/
+
+/*TELA DE CELULAR*/
+@media only screen and (max-width: 768px){
+	li{
+		font-size: 4.5vw;
+	}
+
+	.home h1{
+		margin-top: 0px;
+		font-size: 5vw;
+	}
+
+	.o-evento h1{
+		font-size: 6vw;
+	}
+
+	.palestrantes h1{
+		font-size: 6vw;
+	}
+
+	.inscricoes h1{
+		font-size: 6vw;
+	}
+
+	.parceiros h1{
+		font-size: 6vw;
+	}
+
+	.contato h1{
+		font-size: 6vw;
+	}
+
+	.textos-o-evento h2{
+		font-size: 5vw;
+	}
+
+	.textos-o-evento p{
+		font-size: 4vw;
+	}
+
+	.palestrantes h2{
+		font-size: 4vw;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	.dados-contato h3{
+		font-size: 4vw;
+		text-align: center;
+	}
+}
+/*TELA DE CELULAR*/
