@@ -77,6 +77,7 @@ li:active{
 }
 
 .familia{
+	width: 100%;
 }
 
 .carousel-inner img{
@@ -91,8 +92,7 @@ li:active{
 
 /*O EVENTO*/
 .foto-oevento{
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
 }
 
 /*.icones-oevento{
@@ -107,9 +107,6 @@ li:active{
 	color: #f2592b;
 }*/
 
-.o-evento img{
-	width: 300px;
-}
 
 /*O EVENTO*/
 
@@ -117,10 +114,45 @@ li:active{
 .palestrantes a:hover{
 	text-decoration: none;
 }
-
 /*PALESTRANTES*/
 
 /*INSCRIÇÕES*/
+.cor-planos{
+	background: #f3582c;
+	padding: 20px;
+}
+.cor-planos h2{
+	text-align: center;
+	font-size: 1.8vw;
+}
+.cor-planos h3{
+	text-align: center;
+	font-size: 3.5vw;
+	color: #642d90;
+	font-weight: bold;
+}
+.preco{
+	margin-top: 30px;
+}
+
+.pagseguro{
+	margin: auto;
+}
+.cor-planos h4{
+	margin-top: -10px;
+	text-align: center;
+	font-size: 1vw;
+	color: #ffcd02;
+}
+.cor-planos h5{
+	text-align: center;
+}
+.deposito{
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+
+}
 /*INSCRIÇÕES*/
 
 /*PARCEIROS*/
@@ -137,27 +169,38 @@ li:active{
 /*PARCEIROS*/
 
 /*FORMATAÇÃO*/
+.home h1{
+	color: #f2592b;
+}
 .o-evento h1{
+	margin-top: 50px;
+	text-align: center;
 	color: #f2592b;
 	font-size: 2.7vw;
 }
 .palestrantes h1{
+	margin-top: 50px;
+	text-align: center;
 	color: #f2592b;
 	font-size: 2.7vw;
 }
 
 .inscricoes h1{
+	margin-top: 50px;
+	text-align: center;
 	color: #f2592b;
 	font-size: 2.7vw;
 }
 
 .parceiros h1{
+	margin-top: 50px;
 	color: #662d91;
 	text-align: center;
 	font-size: 2.7vw;
 }
 
 .contato h1{
+	margin-top: 50px;
 	color: #662d91;
 	text-align: center;
 	font-size: 2.7vw;
@@ -169,7 +212,7 @@ h2, *{
 
 .textos-o-evento h2{
 	color: #f2592b;
-	text-align: center;
+	/*text-align: center;*/
 	font-size: 2.3vw;
 }
 
@@ -182,9 +225,12 @@ h2, *{
 .parceiros h2{
 	text-align: center;
 }
- p{
+
+p{
 	font-size: 1.2vw;
- }
+}
+
+
 /*FORMATAÇÃO*/
 
 /*TELA DE CELULAR*/
