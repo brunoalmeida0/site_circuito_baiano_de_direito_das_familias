@@ -1,10 +1,4 @@
-//
-// $(document).ready(function(){
-//     var altura = $(window).height();
-//
-//     alert(altura);
-// });
-
+// CAROUSEL
 $(document).ready(function(){
     var owl = $('.owl-carousel');
   owl.owlCarousel({
@@ -22,26 +16,34 @@ $(document).ready(function(){
       owl.trigger('stop.owl.autoplay')
   })
 });
+// CAROUSEL
 
-// $('.owl.carousel').owlCarousel({
-//     center: true,
-//     items:2,
-//     loop:true,
-//     margin:10,
-//     responsive:{
-//         600:{
-//             items:4
-//         }
-//     }
-// });
-// $('.nonloop').owlCarousel({
-//     center: true,
-//     items:2,
-//     loop:false,
-//     margin:10,
-//     responsive:{
-//         600:{
-//             items:4
-//         }
-//     }
-// });
+// Descer suave
+    jQuery(document).ready(function($){
+        $(".scroll").click(function(event){
+            if ($(window).width() > 768){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top - 50}, 900);
+            }
+            if ($(window).width() < 768){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top - 80}, 900);
+            }
+        });
+    });
+// Descer suave
+
+// Fechar menu ao clicar em link e fora das opções
+$(function(){
+    var navMain = $("#barra-navegacao");
+
+    $('body').click(function(){
+        navMain.collapse('hide');
+    });
+
+    navMain.on("click", "a", null, function () {
+        navMain.collapse('hide');
+    });
+});
+
+// Fechar menu ao clicar em link e fora das opções
